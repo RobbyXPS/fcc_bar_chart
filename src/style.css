@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+h1 {
+  text-align: center;
+  margin: 20px
+}
+
+#title, #x-axis, #y-axis, .axis-label {
+  stroke: #103816;
+  color: #103816;
+  letter-spacing: 1px
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #103816
+}
+
+.container {
+  height: 560px;
+  width: 900px;
+  background-color: #FFF8F8
+}
+
+.visHolder { position: absolute }
+
+#tooltip {
+  position: absolute;
+  pointer-events: none;
+  background-color: #d8ffde;
+  color: #103816;
+  padding: 10px
+}
+
+.overlay {
+  position: absolute;
+  pointer-events: none
+}
